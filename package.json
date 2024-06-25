@@ -1,0 +1,29 @@
+{
+    "name": "@platmac/node-red-platma-iterator",
+    "version": "1.0.1",
+    "description": "Node-RED node that iterates and triggers flows",
+    "private": false,
+    "main": "iterator.js",
+    "scripts": {
+        "test": "mocha test/iterator_spec.js"
+    },
+    "keywords": [
+        "node-red",
+        "iterator",
+        "platma"
+    ],
+    "author": "Hooke <platma@platma.com>",
+    "license": "ISC",
+    "node-red": {
+        "version": ">=2.0.0",
+        "nodes": {
+            "iterator": "iterator.js"
+        }
+    },
+    "devDependencies": {
+        "mocha": "^10.2.0",
+        "node-red": "^3.0.2",
+        "node-red-node-test-helper": "^0.3.2"
+    },
+    "dependencies": {}
+}
