@@ -3,6 +3,9 @@
     "version": "1.0.1",
     "description": "Node-RED node that iterates and triggers flows",
     "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
     "main": "iterator.js",
     "scripts": {
         "test": "mocha test/iterator_spec.js"
